@@ -17,8 +17,9 @@ Welcome to the Unit Converter App, a powerful and user-friendly tool designed to
 ### Installation
 
 1. **Clone the Repository:**
+
    ```bash
-   git clone https://github.com/YourUsername/Unit-Converter-App.git
+   git clone https://github.com/cr33p1ngp4ck3t/Unit-Converter-App.git
    cd Unit-Converter-App
    ```
 
@@ -31,6 +32,7 @@ Welcome to the Unit Converter App, a powerful and user-friendly tool designed to
 ### Running the App
 
 1. **Run the Streamlit App:**
+
    ```bash
    streamlit run app.py
    ```
@@ -65,5 +67,3 @@ Welcome to the Unit Converter App, a powerful and user-friendly tool designed to
 - **Frequency:** Gigahertz, Megahertz, Kilohertz, Hertz
 - **Angle:** Degree, Radian, Gradian
 - **Force:** Kilonewton, Newton, Dyne, Pound-force
-
-
