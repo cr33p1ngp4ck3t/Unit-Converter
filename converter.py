@@ -48,7 +48,7 @@ if choice:
         toUnit = st.selectbox("To", categories[choice], index=None, placeholder="Select Any Unit to Convert")
         value = st.number_input("Enter the value to convert: ", value=1.0)
         quantity = value * getattr(ureg, fromUnit)
-        converted_quantity = quantity.to(getattr(ureg, toUnit))
+        converted_quantity = round(quantity.to(getattr(ureg, toUnit)), 2)
         st.write(f"{value} {fromUnit} is equal to {converted_quantity}.")
     except:
         st.warning("Please Choose a Unit to Convert")
